@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(../img/papel.jpg);
+    color: #FFFF;
+    width: auto;
+    height: auto;
+
+}
+#contenedor{
+width: 80%;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+overflow: hidden;
+
+}
+header{
+height: 20%;
+margin-block-end: 0.5%;
+padding: 2%;
+border-bottom: solid 1.9px black;
+
+}
+/* TITULO RESTAURANT JUANITO*/
+header h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 150%;
+    text-align: center;
+    line-height: center;
+    color: rgb(26, 69, 82);
+}
+
+nav{
+    background: orange;
+    padding: 0.5%;
+    border-radius: 2px;
+}
+nav h2{
+    font-size: 161%;
+    text-align: center;
+    line-height: center;
+
+}
+
+#contenido{
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 3%;
+    
+}
+
+
+table{
+    margin: auto;
+    width: 95%;
+  
+}
+
+table td {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+/*TITULOS DE LOS MENUS*/
+.subTitulos{
+    padding: 1%;
+}
+table tr{
+    font-size: 26px;
+    padding: 11px;
+
+}
+
+.precio{
+    text-align: right;
+
+}
+.agregados{
+    text-align: center;
+    padding: 7%;
+    text-decoration: none;
+    color: rgb(231, 128, 31);
+    border-top: solid black 1.9px;
+    border-bottom: solid black 1.9px;
+    border-radius: 10px;
+}
+/*boton*/
+.agregados a{
+    text-decoration: none;
+    color: rgb(29, 30, 31);
+    font-size: 120%;
+    border: double ;
+    padding: 0.5em;
+    background-color: #475e7552;
+    transition: background-color .5s;
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+    
+
+}
+.agregados a:hover{
+    background: white;
+}
+
+/*TABLA CONTENIDO COLOR Y TRASPARENCIA*/
+#divicionPlatos{
+background-color: #1b1b1b;
+opacity: 0.8;
+color: rgb(223, 230, 233);
+font-family: 'Merienda', cursive;
+
+
+}
+/*sub titulo*/
+table tr th{
+    font-family: 'Satisfy', cursive;
+    color: rgb(26, 69, 82);
+    font-size: 110%;
+}  
+
+
+
+
+aside{
+    width: 19%;
+    background: green;
+    margin-top: 10px;
+    float: right;
+}
+aside h2{
+    font-size: 50px;
+    text-align: center;
+    line-height: center;
+}
+
+footer{
+    height: 20%;
+    width: 100%;
+    clear: both;
+}
+footer h3{
+    font-size: 90%;
+    text-align: center;
+    line-height: center;
+    padding: 20px;
+    color: #000;
+}
+
